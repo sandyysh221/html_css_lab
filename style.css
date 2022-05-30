@@ -1,38 +1,40 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: auto
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
 }
 header {
-    background-color: dodgerblue;
-    color: white;
-    padding: 16px;
-    
-   
+  background-color: dodgerblue;
+  color: white;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
-header > nav > ul {
-    list-style: none;
 
-    
+header > nav > ul {
+  list-style: none;
 }
+
 header > nav > ul > li {
-    display: inline;
-    text-align: right;
+  display: inline;
+  text-align: center;
 }
+
 header > nav > ul > li > a {
-    list-style: none;
-    color: white;
+  list-style: none;
+  color: white;
 }
 
 .column {
-    float: left;
-    width: 50%;
-    padding: 5px;
+  float: left;
+  width: 50%;
+  padding: 5px;
 }
 
 /* .row {
      */
 /* } */
- /* body > header > h1 {
+/* body > header > h1 {
      display: inline;
 
  } */
